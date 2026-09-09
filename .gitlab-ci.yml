@@ -23,7 +23,7 @@ stages:
 build:
   stage: build
   script:
-    - echo $DOTENV_BASE64 | base64 -d > case_study_reviews/.env
+    - echo $DOTENV_BASE64 | base64 -d > data_science_review/.env
     - docker build -t sc-registry.fredhutch.org/bioocs-data-science-reviewer:$CI_COMMIT_SHORT_SHA .
 
 test:
