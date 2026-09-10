@@ -27,8 +27,8 @@ library(surveydown)
 # doing local testing. Once you're ready to collect survey responses, set
 # ignore = FALSE or just delete this argument.
 
-db <- sd_db_connect(ignore = TRUE)
-#db <- sd_db_connect()
+# db <- sd_db_connect(ignore = TRUE)
+db <- sd_db_connect()
 
 # UI setup --------------------------------------------------------------------
 
