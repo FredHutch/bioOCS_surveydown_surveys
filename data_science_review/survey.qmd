@@ -11,16 +11,16 @@ footer-left: "Made with [surveydown](https://surveydown.org)"
 footer-right: '[<i class="bi bi-github"></i> Source Code](https://github.com/opencasestudies/surveydown_surveys/tree/reviewSurveyDraft)'
 
 # Survey Settings
-show-previous: true
+show-previous: yes
 start-page: welcome
-use-cookies: false #update after building
-auto-scroll: false
-rate-survey: false
+use-cookies: yes
+auto-scroll: no
+rate-survey: no
 system-language: en
-highlight-unanswered: true
+highlight-unanswered: yes
 highlight-color: blue
-capture-metadata: true
-all-questions-required: true
+capture-metadata: yes
+all-required: yes
 ---
 
 ```{r}
